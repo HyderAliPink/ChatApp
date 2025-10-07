@@ -3,13 +3,13 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  measurementId: import.meta.env.VITE_FIREBASE_APP_MEASUREMENT_ID
+  apiKey: "AIzaSyAfhjXrvCi2e6M1vSNj1uCkC_zjD83m7CA",
+  authDomain: "chat-application-786.firebaseapp.com",
+  projectId: "chat-application-786",
+  storageBucket: "chat-application-786.firebasestorage.app",
+  messagingSenderId: "1008379840779",
+  appId: "1:1008379840779:web:f2ab922a4374b87d8a3a0e",
+  measurementId: "G-7ESLCT5Z4B"
 };
 
 
